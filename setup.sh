@@ -14,6 +14,8 @@ brew upgrade
 brew install git
 brew install node
 brew install unrar
+brew install zsh
+brew install zsh-completions
 
 ## OSX native apps
 brew tap caskroom/cask
@@ -55,5 +57,5 @@ git clone https://github.com/arthurgouveia/dotfiles.git
 
 ### Setup symlinks
 cd ~/
-ln -s ~/src/dotfiles/gitconfig .gitconfig
-ln -s ~/src/dotfiles/gitignore_global .gitignore_global
+ln -s ~/src/dotfiles/.gitconfig .gitconfig
+ln -s ~/src/dotfiles/.gitignore_global .gitignore_global
