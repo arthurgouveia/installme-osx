@@ -14,5 +14,5 @@ Setting up a new osx machine requires some manual steps, [a gist enumerating all
 
 ## License
 
-Copyright (c) 2015 Ruy Adorno. Licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+Copyright (c) 2017 Arthur Gouveia. Licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 
