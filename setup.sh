@@ -59,3 +59,12 @@ git clone https://github.com/arthurgouveia/dotfiles.git
 cd ~/
 ln -s ~/src/dotfiles/.gitconfig .gitconfig
 ln -s ~/src/dotfiles/.gitignore_global .gitignore_global
+
+
+## Setup OSX configs
+
+### Set screenshots default folder to Downloads/screenshots
+cd ~/Downloads
+mkdir screenshots
+defaults write com.apple.screencapture location ~/Downloads/screenshots
+killall SystemUIServer
