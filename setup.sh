@@ -47,6 +47,7 @@ installcask vlc
 
 # global npm dependencies
 npm install -g eslint
+npm install -g jshint
 npm install -g svgo
 npm install -g subtitler
 
