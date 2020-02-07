@@ -32,6 +32,7 @@ installcask google-chrome
 installcask dash
 installcask iterm2
 installcask visual-studio-code
+brew install yarn
 
 ### utils
 installcask 1password
@@ -44,13 +45,6 @@ installcask skype
 installcask slack
 installcask spotify
 installcask vlc
-
-# global npm dependencies
-npm install -g eslint
-npm install -g jshint
-npm install -g svgo
-npm install -g subtitler
-
 
 ## Get dotfiles repo
 cd ~/src/
